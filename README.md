@@ -1,5 +1,5 @@
-# cs5811
-##Task for data cleaning and EDA:
+# Distributed Data Analysis - CS5811 
+## Task for data cleaning and EDA:
 •	Convert observations in CookTime column, PrepTime column and TotalTime column form hours to minutes
 
 •	NA’s in CookTime columns should not be removed, but rather convert NA’s to 0 minutes.
