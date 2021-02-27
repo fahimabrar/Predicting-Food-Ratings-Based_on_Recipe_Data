@@ -1,1 +1,5 @@
-- All the data source along with the info like data size, how frequently data updated will be appended here
+Data Source : https://www.kaggle.com/irkaal/foodcom-recipes-and-reviews
+
+Two csv files recipes (671 MB) and reviews (473 MB)
+
+
