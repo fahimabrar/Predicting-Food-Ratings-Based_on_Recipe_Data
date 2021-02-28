@@ -46,6 +46,19 @@ Null values in review column terminate the function giving errror. We converted 
 - The data cleaning was computationaly heavy. It processed 1.4 million rows and took good amount of time to execute the python file. 
 - The 493MB cannot be uploaded on github
 
+##### TextBlob has done amazing job for classifying reviews. Some examples shown below:
+
+##### Very Good
+![verygood](https://i.ibb.co/17xLsbK/verygood.jpg)
+##### Good
+![good](https://i.ibb.co/SmPJkcf/good.jpg)
+##### Average
+![average](https://i.ibb.co/23WQrNG/average.jpg)
+##### Poor
+![poor](https://i.ibb.co/YDRVMsq/poor.jpg)
+##### Very Poor
+![verypoor](https://i.ibb.co/9hC4jGp/verypoor.jpg)
+
 
 
 
