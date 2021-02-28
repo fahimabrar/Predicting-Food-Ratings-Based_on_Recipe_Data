@@ -49,15 +49,20 @@ Null values in review column terminate the function giving errror. We converted 
 ##### TextBlob has done amazing job for classifying reviews. Some examples shown below:
 
 ##### Very Good
-![verygood](https://i.ibb.co/17xLsbK/verygood.jpg =250x)
+<img src="https://i.ibb.co/17xLsbK/verygood.jpg" alt="drawing" width="200"/>
+
 ##### Good
-![good](https://i.ibb.co/SmPJkcf/good.jpg =250x)
+<img src="https://i.ibb.co/SmPJkcf/good.jpg" alt="drawing" width="200"/>
+
 ##### Average
-![average](https://i.ibb.co/23WQrNG/average.jpg =250x)
+<img src="https://i.ibb.co/23WQrNG/average.jpg" alt="drawing" width="200"/>
+
 ##### Poor
-![poor](https://i.ibb.co/YDRVMsq/poor.jpg =250x)
+<img src="https://i.ibb.co/YDRVMsq/poor.jpg" alt="drawing" width="200"/>
+
 ##### Very Poor
-![verypoor](https://i.ibb.co/9hC4jGp/verypoor.jpg =250x)
+<img src="https://i.ibb.co/9hC4jGp/verypoor.jpg" alt="drawing" width="200"/>
+
 
 
 
