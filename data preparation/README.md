@@ -1,6 +1,6 @@
 # Data Preparation
 
-#### Sentiment Analysis
+### Sentiment Analysis
 ###### Author: Abrar
 
 We used [textblob](https://textblob.readthedocs.io/en/dev/) to analysis sentiment.
@@ -21,7 +21,7 @@ We can get polarity and subjectivity as numeric by using following functions
 - TextBlob(text).sentiment.polarity
 - TextBlob(text).sentiment.subjectivity
 
-###### Data 
+##### Data 
 In our review dataset we have customers review for particular foods. We give this texts as input to TextBlob sentiment function. It returns polarity and subjectivity score for each review. we converted the score into different classes. 
 
 Our main objective was to classify the review into lickert (or lickertlike) scale. Here we used five point scale
@@ -38,7 +38,7 @@ As review is very subjective, so for subjectivity we selected >50% for applying 
 
 After applying the abovementioned condition we generated a new column named *Review_classified* 
 
-###### Exception
+##### Exception
 
 Null values in review column terminate the function giving errror. We converted nan into string. That have no value, so in sentiment analysis all the nan values gets "average" class
 
@@ -54,7 +54,7 @@ Null values in review column terminate the function giving errror. We converted 
 
 <img src="https://i.ibb.co/9hC4jGp/verypoor.jpg" alt="drawing" width="400"/>
 
-###### N:B
+##### N:B
 - The data cleaning was computationaly heavy. It processed 1.4 million rows and took good amount of time to execute the python file. 
 - The 493MB cannot be uploaded on github
 
