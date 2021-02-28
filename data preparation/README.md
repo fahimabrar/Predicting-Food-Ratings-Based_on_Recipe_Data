@@ -15,7 +15,7 @@ Polarity scaled between -1 to +1.
 
 -1 means the extremely negative meaningful text. +1 means the most positive text.
 
-**Subjectivity** means how much subjective the text is. e:g: opinion, emotion expressed in the text. Subjectivity scaled between 0 and +1.
+**Subjectivity** means how much subjective the text is. e:g: how much opinion, emotion expressed in the text. Subjectivity scaled between 0 and +1.
 
 We can get polarity and subjectivity as numeric by using following functions
 - TextBlob(text).sentiment.polarity
