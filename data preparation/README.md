@@ -24,7 +24,7 @@ We can get polarity and subjectivity as numeric by using following functions
 ##### Data 
 In our review dataset we have customers review for particular foods. We give this texts as input to TextBlob sentiment function. It returns polarity and subjectivity score for each review. we converted the score into different classes. 
 
-Our main objective was to classify the review into lickert (or lickertlike) scale. Here we used five point scale
+Our main objective was to classify the review into likert (or likertlike) scale. Here we used five point scale
 
 | Tables        |Polarity (%)           |
 |:-------------:|:-------------:|
