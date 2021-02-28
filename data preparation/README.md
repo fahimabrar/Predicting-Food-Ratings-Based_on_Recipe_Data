@@ -50,11 +50,11 @@ Null values in review column terminate the function giving errror. We converted 
 
 ##### Very Good 
 
-<img src="https://i.ibb.co/17xLsbK/verygood.jpg" alt="drawing" width="400"/>
+<img src="https://i.ibb.co/17xLsbK/verygood.jpg" alt="drawing" width="600"/>
 
 ##### Very Poor
 
-<img src="https://i.ibb.co/9hC4jGp/verypoor.jpg" alt="drawing" width="400"/>
+<img src="https://i.ibb.co/9hC4jGp/verypoor.jpg" alt="drawing" width="600"/>
 
 ##### N:B
 - The data cleaning was computationaly heavy. It processed 1.4 million rows and took good amount of time to execute the python file. 
