@@ -1,5 +1,7 @@
 # Data Preparation
 
+Original Data can be downloaded from following link: https://www.kaggle.com/irkaal/foodcom-recipes-and-reviews
+
 ### Sentiment Analysis
 ###### Author: Abrar
 
