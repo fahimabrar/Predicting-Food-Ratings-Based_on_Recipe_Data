@@ -28,7 +28,7 @@
 •	In the review dataset,review column we can do some sentiment analysis, and make some positive or negative scoring and adding the analysis to our main data set. (**done**)
 
 
-##### Major data cleaning tasks have been done - 28 Feb. 
+##### Major data cleaning tasks are done - 28 Feb. 
 
 
 ## HPCI TASK
