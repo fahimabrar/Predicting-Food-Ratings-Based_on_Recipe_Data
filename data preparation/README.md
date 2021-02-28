@@ -127,12 +127,11 @@ we named the new column Ingredient_Count and added the new column to the recipe 
 
 - Input 1 :  c("saffron", "milk", "hot green chili peppers", "onions", "garlic", "clove", "peppercorns", "cardamom seed", "cumin seed", "poppy seed", "mace", "cilantro", "mint leaf", "fresh lemon juice", "plain yogurt", "boneless chicken", "salt", "ghee", "onion", "tomatoes", "basmati rice", "long-grain rice", "raisins", "cashews", "eggs")
     
-
 - Input 2 :  c("blueberries", "granulated sugar", "vanilla yogurt", "lemon juice") 
 
-Output 1 :  25
+- Output 1 :  25
 
-Output 2 :  4
+- Output 2 :  4
 
 Here the function has counted the number of strings which are ingredients in each list
 
