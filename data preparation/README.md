@@ -42,14 +42,25 @@ After applying the abovementioned condition we generated a new column named *Rev
 
 Null values in review column terminate the function giving errror. We converted nan into string. That have no value, so in sentiment analysis all the nan values gets "average" class
 
+
+
+##### TextBlob has done amazing job for classifying reviews. Some examples shown below:
+
+##### Very Good 
+
+<img src="https://i.ibb.co/17xLsbK/verygood.jpg" alt="drawing" width="400"/>
+
+##### Very Poor
+
+<img src="https://i.ibb.co/9hC4jGp/verypoor.jpg" alt="drawing" width="400"/>
+
 ###### N:B
 - The data cleaning was computationaly heavy. It processed 1.4 million rows and took good amount of time to execute the python file. 
 - The 493MB cannot be uploaded on github
 
-##### TextBlob has done amazing job for classifying reviews. Some examples shown below:
+---
 
 
-| ##### Very Good <img src="https://i.ibb.co/17xLsbK/verygood.jpg" alt="drawing" width="400"/>| ##### Very Poor<img src="https://i.ibb.co/9hC4jGp/verypoor.jpg" alt="drawing" width="400"/>|
 
 
 
