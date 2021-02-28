@@ -108,7 +108,8 @@ Note - We are converting NA values in CookTime to 0 mins and also we have some c
 
 In our data we have a column named RecipeIngredientParts which is all text. 
 
-The text consists of list of ingredients for each recipe, example c("blueberries", "granulated sugar", "vanilla yogurt", "lemon juice"),   c("saffron", "milk", "hot green chili peppers", "onions", "garlic", "clove", "peppercorns", "cardamom seed", "cumin seed", "poppy seed", "mace", "cilantro", "mint leaf", "fresh lemon juice", "plain yogurt", "boneless chicken", "salt", "ghee", "onion", "tomatoes", "basmati rice", "long-grain rice", "raisins", "cashews", "eggs")
+The text consists of list of ingredients for each recipe, examples are c("blueberries", "granulated sugar", "vanilla yogurt", "lemon juice"),  
+c("saffron", "milk", "hot green chili peppers", "onions", "garlic", "clove", "peppercorns", "cardamom seed", "cumin seed", "poppy seed", "mace", "cilantro", "mint leaf", "fresh lemon juice", "plain yogurt", "boneless chicken", "salt", "ghee", "onion", "tomatoes", "basmati rice", "long-grain rice", "raisins", "cashews", "eggs")
 
 we need to convert this nominal field to be a numerical field by counting the number of ingredients in each list, so we can use it for predictions.
 
@@ -124,7 +125,8 @@ we named the new column Ingredient_Count and added the new column to the recipe 
 
 **Example**
 
-- Input 1 :  c("saffron", "milk", "hot green chili peppers", "onions", "garlic", "clove", "peppercorns", "cardamom seed", "cumin seed", "poppy seed", "mace", "cilantro", "mint leaf", "fresh lemon juice", "plain yogurt", "boneless chicken", "salt", "ghee", "onion", "tomatoes", "basmati rice", "long-grain rice", "raisins", "cashews", "eggs")   
+- Input 1 :  c("saffron", "milk", "hot green chili peppers", "onions", "garlic", "clove", "peppercorns", "cardamom seed", "cumin seed", "poppy seed", "mace", "cilantro", "mint leaf", "fresh lemon juice", "plain yogurt", "boneless chicken", "salt", "ghee", "onion", "tomatoes", "basmati rice", "long-grain rice", "raisins", "cashews", "eggs")
+    
 
 - Input 2 :  c("blueberries", "granulated sugar", "vanilla yogurt", "lemon juice") 
 
