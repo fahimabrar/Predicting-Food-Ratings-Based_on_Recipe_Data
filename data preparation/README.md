@@ -72,7 +72,7 @@ We will create a user defined fucnction which can identify the format and based 
 
 **Example:**
 - CookTime = "PT3H30M"
-- time(CookTIme)
+- time(CookTime)
 - Output: 210.0
 
 Here the function converts the ISO 8601 duration into a string and then remove unwanted character, parse through the string based on pattern and then converts the duration into minutes.
