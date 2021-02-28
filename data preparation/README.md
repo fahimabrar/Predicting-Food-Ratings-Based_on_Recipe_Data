@@ -103,8 +103,41 @@ Note - We are converting NA values in CookTime to 0 mins and also we have some c
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
+### Ingredients Count
+##### Author : Eunice
 
+In our data we have a column named RecipeIngredientParts which is all text. 
 
+The text consists of list of ingredients for each recipe, example c("blueberries", "granulated sugar", "vanilla yogurt", "lemon juice"),   c("saffron", "milk", "hot green chili peppers", "onions", "garlic", "clove", "peppercorns", "cardamom seed", "cumin seed", "poppy seed", "mace", "cilantro", "mint leaf", "fresh lemon juice", "plain yogurt", "boneless chicken", "salt", "ghee", "onion", "tomatoes", "basmati rice", "long-grain rice", "raisins", "cashews", "eggs")
+
+we need to convert this nominal field to be a numerical field by counting the number of ingredients in each list, so we can use it for predictions.
+
+we used loops to achieve this 
+
+we first had each string seperated by comma
+
+then counted number of strings in each list into a list of values.
+
+we  formed a new column with the values 
+
+we named the new column Ingredient_Count and added the new column to the recipe dataset.
+
+**Example**
+
+- Input 1 :  c("saffron", "milk", "hot green chili peppers", "onions", "garlic", "clove", "peppercorns", "cardamom seed", "cumin seed", "poppy seed", "mace", "cilantro", "mint leaf", "fresh lemon juice", "plain yogurt", "boneless chicken", "salt", "ghee", "onion", "tomatoes", "basmati rice", "long-grain rice", "raisins", "cashews", "eggs")   
+
+- Input 2 :  c("blueberries", "granulated sugar", "vanilla yogurt", "lemon juice") 
+
+Output 1 :  25
+
+Output 2 :  4
+
+Here the function has counted the number of strings which are ingredients in each list
+
+**Data**
+we  formed a new column with the values 
+
+we named the new column Ingredient_Count and added the new column to the recipe dataset
 
 
 
