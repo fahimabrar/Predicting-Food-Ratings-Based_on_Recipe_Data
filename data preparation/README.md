@@ -136,6 +136,7 @@ we named the new column Ingredient_Count and added the new column to the recipe 
 Here the function has counted the number of strings which are ingredients in each list
 
 **Data**
+
 we  formed a new column with the values 
 
 we named the new column Ingredient_Count and added the new column to the recipe dataset
