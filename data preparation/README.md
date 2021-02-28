@@ -48,6 +48,15 @@ Null values in review column terminate the function giving errror. We converted 
 
 ##### TextBlob has done amazing job for classifying reviews. Some examples shown below:
 
+
+| ##### Very Good
+<img src="https://i.ibb.co/17xLsbK/verygood.jpg" alt="drawing" width="400"/>| ##### Very Poor
+<img src="https://i.ibb.co/9hC4jGp/verypoor.jpg" alt="drawing" width="400"/>|
+
+
+
+
+
 ##### Very Good
 <img src="https://i.ibb.co/17xLsbK/verygood.jpg" alt="drawing" width="200"/>
 
