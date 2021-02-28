@@ -60,10 +60,47 @@ Null values in review column terminate the function giving errror. We converted 
 - The data cleaning was computationaly heavy. It processed 1.4 million rows and took good amount of time to execute the python file. 
 - The 493MB cannot be uploaded on github
 
----
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+### Time Format
+###### Author: Ravinder
+
+In our data we have duration for CookTime, PrepTime and TotalTime in ISO 8601 format i.e. PT2H45M.
+We need to convert this into minutes for all three columns so that we can use it properly.
+
+We will create a user defined fucnction which can identify the format and based on the values can convert the duration into minutes.
+
+**Example:**
+- CookTime = "PT3H30M"
+- time(CookTIme)
+- Output: 210.0
+
+Here the function converts the ISO 8601 duration into a string and then remove unwanted character, parse through the string based on pattern and then converts the duration into minutes.
+
+##### Data 
+
+In our recipes dataset we have CookTime, PrepTime and TotalTime in ISO 8601 format for all the recipes. We give this ISO 8601 format data into our user defined function "time" as input and the function returns duration as integer.
+
+After applying the above mentioned function "time" we updated the columns CookTime, PrepTime and TotalTime with duration in minutes.
+
+Note - We are converting NA values in CookTime to 0 mins and also we have some columns with data as PT0S, which means 0 seconds and we are converting that too into 0 mins.
 
 
+##### Some examples shown below:
 
+##### Before applying the function
+
+![image](https://user-images.githubusercontent.com/79374661/109417486-c2dc6100-79bb-11eb-8c1c-2e782f83b47e.png)
+
+##### After applying the function
+
+![image](https://user-images.githubusercontent.com/79374661/109417504-d8ea2180-79bb-11eb-9157-d51e7ded6ca8.png)
+
+##### N:B
+- The data cleaning was computationaly heavy. It processed .2 million rows and took good amount of time to execute the python file. 
+- The 690MB cannot be uploaded on github
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
 
