@@ -9,8 +9,10 @@ We used [textblob](https://textblob.readthedocs.io/en/dev/) to analysis sentimen
 The function TextBlob() can take string as an input. And the **sentiment** function returns the sentiment score of the particular string.
 
 **Example:**
-- TextBlob("good").sentiment
-- Output: Sentiment(polarity=0.7, subjectivity=0.6000000000000001)
+
+    TextBlob("good").sentiment
+    
+    Output: Sentiment(polarity=0.7, subjectivity=0.6000000000000001)
 
 Here **Polarity** means how much positive or negative meaning the text has. e:g: good is positive word and bad is a negative word. 
 Polarity scaled between -1 to +1.
