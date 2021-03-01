@@ -13,7 +13,7 @@
 
 •	NA’s in CookTime columns should not be removed, but rather convert NA’s to 0 minutes. (**done**)
 
-•	Columns to be removed are : Date published, Description, Images, Recipe, Keywords, RecipeIngredrientsQuantities, RecipeServed, Recipeyield, RecipeInstructions. (**we will not remove now**)
+•	Columns to be removed are : Date published, Description, Images, RecipeKeywords, RecipeIngredrientsQuantities, RecipeServed, Recipeyield, RecipeInstructions. (**we will not remove now**)
 
 •	With Recipe category column, we can do reduce some categories and do some cluster analysis which is optional. (**will moved to EDA PLAN**)
 
