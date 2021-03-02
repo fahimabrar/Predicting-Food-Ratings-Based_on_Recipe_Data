@@ -47,9 +47,6 @@
 
 
 ## Machine Learning Task
-1..Machine learning task will be done after EDA
 
-2.. We can consider multiple algo’s with Neuro Networks.
-
-3.. We can consider multiple algo’s with Random forest to predict the rating.
+![Algorithms]("https://raw.githubusercontent.com/fahimabrar/CS5811-Distributed_Data_Analysis/main/Image/asjk.JPG")
 
