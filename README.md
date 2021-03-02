@@ -48,5 +48,5 @@
 
 ## Machine Learning Task
 
-![Algorithms]("https://raw.githubusercontent.com/fahimabrar/CS5811-Distributed_Data_Analysis/main/Image/asjk.JPG")
+![Algorithms]("https://i.ibb.co/zQYp1JZ/asjk.jpg")
 
