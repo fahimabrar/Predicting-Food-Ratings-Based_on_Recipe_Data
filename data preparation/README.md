@@ -155,7 +155,12 @@ At the end of the file you need to write the code to download 2 datasets with yo
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+### MinMaxMeanPerRecipe
+###### Author: Ravinder
 
+This code will store min, max and mean Rating per RecipeId in three variables and these three variables can be added to your aggregated dataset.
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
 
