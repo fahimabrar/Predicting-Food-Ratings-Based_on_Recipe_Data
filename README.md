@@ -48,5 +48,7 @@
 
 ## Machine Learning Task
 
-![Algorithms]("https://i.ibb.co/zQYp1JZ/asjk.jpg")
+<img src="https://i.ibb.co/zQYp1JZ/asjk.jpg" alt="drawing" width="600"/>
+
+
 
