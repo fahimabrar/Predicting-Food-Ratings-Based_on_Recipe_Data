@@ -48,6 +48,11 @@
 
 ## Machine Learning Task
 
+
+- Random Forest - Ravinder
+- SVM - Abrar
+- Decision Tree or KNN - Eunice
+
 <img src="https://i.ibb.co/zQYp1JZ/asjk.jpg" alt="drawing" width="600"/>
 
 
