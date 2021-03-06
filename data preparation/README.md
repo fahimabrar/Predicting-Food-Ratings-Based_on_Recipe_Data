@@ -143,15 +143,6 @@ we  formed a new column with the values
 
 we named the new column Ingredient_Count and added the new column to the recipe dataset
 
------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-### MainData
-##### Author : Ravinder
-
-The code in this file will provide you with the main data. You can execute the written code and then save 2 updated datasets reviews and recipes.
-
-**NB**
-At the end of the file you need to write the code to download 2 datasets with your desired dataset names.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
