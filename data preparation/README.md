@@ -62,7 +62,7 @@ Null values in review column terminate the function giving errror. We converted 
 
 After getting all the sentiments for the reviews we then group them by recipie ID, so that we can merge them with our main dataset based on recipe ID. getting sentiment for each recipe is combination of some smaller tasks. e:g:
 
-- assigning numeric value for each class e:g 5 for very good, 0 for very poor
+- assigning numeric value for each class e:g 5 for very good, 1 for very poor
 - getting the average by applying the equation : sum(review score for individual recipe)/count(individul recipies)
 - then again convert this score into likert scale class
 
