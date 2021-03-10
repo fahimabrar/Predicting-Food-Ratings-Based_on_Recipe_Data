@@ -167,8 +167,15 @@ This code will store min, max and mean Rating per RecipeId in three variables an
 
 Follow the steps in this file to merge all the datasets into 1 master dataset
 
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
 
 #### The main dataset can be found [here](https://drive.google.com/drive/folders/1e994fROr9T_5l22ywDcsYYDZITpx69lJ?usp=sharing)
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+### DataAndCleaning
+###### Author: Ravinder
+
+The code in this file is written to clean the master data.
+NA's are removed, outliers are removed and maximum limits for columns are set.
+EDA can be done on dataset produced by this code.
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
