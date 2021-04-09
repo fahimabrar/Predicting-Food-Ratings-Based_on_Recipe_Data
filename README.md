@@ -43,7 +43,13 @@
 
 ## EDA PLAN
 
-- what graph/chart we want to view will be added here. Along with clustering PCA etc. ......................
+
+- Plot for viewing no of null instances  (nanier)  - Ravinder
+- Correlation plot of numerical things - Abrar
+- Scatter plot of rating with any factors etc - Ravinder
+- Histograms of numeric variables - Eunice
+- Boxplot for reviews  - Eunice
+- Geom Sommoth plotting for highly correlated variables - Abrar
 
 
 ## Machine Learning Task
