@@ -1,0 +1,50 @@
+---
+title: "Investigating relation type of most Correlated variables"
+author: "Abrar"
+output:
+  html_document:
+    df_print: paged
+---
+
+#### To see the relation types of most correlated values. We selected correlation > 0.85 variables of our EDA
+
+```{r}
+data <- read.csv("NewFinalSample.csv")
+
+```
+
+
+```{r}
+library(ggplot2)
+```
+
+```{r}
+ggplot(data = data, aes(x = FatContent, y = SaturatedFatContent)) + geom_point()
+```
+
+```{r}
+ggplot(data = data, aes(x = FatContent, y = SaturatedFatContent)) + geom_smooth()
+
+```
+
+
+```{r}
+ggplot(data = data, aes(x = FatContent, y = SaturatedFatContent)) + geom_smooth(method = "lm")
+
+```
+
+```{r}
+ggplot(data = data, aes(x = FatContent, y = SaturatedFatContent)) + geom_smooth(method = "lm", formula = y ~ poly(x, 3))
+
+```
+
+```{r}
+ggplot(data = data, aes(x = FatContent, y = Calories)) + geom_point()
+```
+```{r}
+ggplot(data = data, aes(x = FatContent, y = Calories)) + geom_smooth()
+```
+```{r}
+ggplot(data = data, aes(x = FatContent, y = SaturatedFatContent)) + geom_smooth(method = "lm")
+```
+
