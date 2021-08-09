@@ -1,11 +1,9 @@
-# Distributed Data Analysis - CS5811 
+# Predicting Food Ratings Based on Recipe Data 
 
 
 ## Research Question:
 
 - Finding the rating of a food (supervised learning)
-- Finding the calories of a recipie (supervised learning)
-- Clustering food in differt types (unsupervised learning)
 
 
 ## Task for data cleaning and EDA:
@@ -32,17 +30,15 @@
 
 
 ## HPCI TASK
-1. Number of Ingerdients for each recipies using HPCI. Assigned to **Eunice**
+1. Number of Ingerdients for each recipies using HPCI. Assigned to **Eunice** (done)
 
-2. the minimum rating, maximum rating and average rating and number of count, we will create 2 more columns. Assigned to **Ravinder**
+2. the minimum rating, maximum rating and average rating and number of count, we will create 2 more columns. Assigned to **Ravinder** (done)
 
-3. Converted Likert scale to numerical value and group by receipie Id. Assigned to **Abrar** 
+3. Converted Likert scale to numerical value and group by receipie Id. Assigned to **Abrar** (done)
 
-**Note:** HPCI task now can be done with normal python scripts. While developing the project it can be done with this time. 
 
 
 ## EDA PLAN
-
 
 - Plot for viewing no of null instances  (nanier)  - Ravinder
 - Correlation plot of numerical things - Abrar
